@@ -1,0 +1,3 @@
+export PYTHON_EXECUTABLE=python3
+export OREILLY_DOWNLOADER_PATH=/Users/user/Documents/safaribooks/safaribooks.py
+export BOOKS_ROOT_PATH=/Users/user/Documents/Safari
