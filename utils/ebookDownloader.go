@@ -16,7 +16,7 @@ type SafariDownloader struct {
 
 func (s *SafariDownloader) DownloadEbook(isbn string) string {
 
-	completeArguments := append(s.ExecutableArgs, "--book-path", isbn, isbn)
+	completeArguments := append(s.ExecutableArgs, isbn) //"--book-path", isbn,
 	cmd := exec.Command(s.ExecutablePath, completeArguments...)
 	err := cmd.Run()
 
